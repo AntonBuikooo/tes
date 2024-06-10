@@ -2,9 +2,9 @@ services:
   postgres-funtastic:
     image: postgres:latest
     environment:
-      POSTGRES_DB: funtastic_db
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: 12d8jAS4Z7JA0z0aAS4Z7JA
+      POSTGRES_DB: "funtastic_db"
+      POSTGRES_USER: "root"
+      POSTGRES_PASSWORD: "12d8jAS4Z7JA0z0aAS4Z7JA"
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
