@@ -9,7 +9,5 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - /etc/postgresql/14/main/postgresql.conf:/var/lib/postgresql/data/postgresql.conf
-      - /etc/postgresql/14/main/pg_hba.conf:/var/lib/postgresql/data/pg_hba.conf
 volumes:
   postgres_data:
