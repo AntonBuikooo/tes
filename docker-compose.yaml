@@ -2,7 +2,7 @@ services:
   postgres-funtastic:
     image: postgres:latest
     environment:
-      POSTGRES_DB: funtastic_db
+      POSTGRES_DB: funtastic2_db
       POSTGRES_USER: root
       POSTGRES_PASSWORD: Lvh3usFeQsvrxmN2
     ports:
