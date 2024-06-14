@@ -1,5 +1,5 @@
 services:
-  postgres-funtastic2:
+  postgres-funtastic:
     image: postgres:latest
     environment:
       POSTGRES_DB: funtastic_db
